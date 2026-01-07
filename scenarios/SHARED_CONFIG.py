@@ -31,6 +31,11 @@ SUPPORTED_OPERATIONS = [
     "add",
     "subtract",
     "multiply",
+    "validate_numbers",
+    "round_result",
+    "format_output",
+    "multiply",
+    "divide"
     # 팀원들이 각자 추가할 예정
 ]
 
