@@ -7,6 +7,7 @@
 
 
 def add(a: float, b: float) -> float:
+    return a + b
     """두 수의 합을 반환합니다.
 
     Args:
@@ -23,10 +24,11 @@ def add(a: float, b: float) -> float:
         0
     """
     # TODO: 구현하세요
-    pass
+    
 
 
 def subtract(a: float, b: float) -> float:
+    return a - b
     """두 수의 차를 반환합니다.
 
     Args:
@@ -43,10 +45,11 @@ def subtract(a: float, b: float) -> float:
         -2
     """
     # TODO: 구현하세요
-    pass
+    
 
 
 def multiply(a: float, b: float) -> float:
+    return a *b
     """두 수의 곱을 반환합니다.
 
     Args:
@@ -63,10 +66,11 @@ def multiply(a: float, b: float) -> float:
         -6
     """
     # TODO: 구현하세요
-    pass
+    
 
 
 def divide(a: float, b: float) -> float:
+    return a /b
     """두 수의 나눗셈 결과를 반환합니다.
 
     Args:
@@ -87,4 +91,4 @@ def divide(a: float, b: float) -> float:
     """
     # TODO: 구현하세요
     # 힌트: b가 0이면 ZeroDivisionError를 발생시켜야 합니다
-    pass
+    
