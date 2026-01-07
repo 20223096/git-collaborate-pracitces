@@ -4,7 +4,7 @@ name: Run Tests              # 워크플로우 이름
 
 on:                          # 트리거 조건
   push:                      # push 할 때 실행
-    branches: [ main ]
+    branches: [ master ]
   # pull_request:              # PR 생성 시 실행
   #   branches: [ main ]
 
