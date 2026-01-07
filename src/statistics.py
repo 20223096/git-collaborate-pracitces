@@ -1,7 +1,7 @@
 """
 통계 함수 모듈
 
-담당: 팀원 B
+담당: 팀원 :isak
 브랜치: feature/statistics
 """
 
