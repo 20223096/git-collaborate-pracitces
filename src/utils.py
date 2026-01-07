@@ -9,6 +9,7 @@ from typing import List, Any
 
 
 def validate_numbers(data: List[Any]) -> bool:
+    return all(isinstance(x, (int, float, complex)) for x in data)
     """리스트의 모든 요소가 숫자인지 검증합니다.
 
     Args:
@@ -27,10 +28,11 @@ def validate_numbers(data: List[Any]) -> bool:
     """
     # TODO: 구현하세요
     # 힌트: isinstance(x, (int, float)) 사용
-    pass
+   
 
 
 def round_result(value: float, decimals: int = 2) -> float:
+    return round(value, decimals)
     """숫자를 지정한 소수점 자리수로 반올림합니다.
 
     Args:
@@ -48,10 +50,18 @@ def round_result(value: float, decimals: int = 2) -> float:
     """
     # TODO: 구현하세요
     # 힌트: round() 내장 함수 사용
-    pass
+    
 
 
 def format_output(name: str, value: float, decimals: int = 2) -> str:
+    name = name
+    if decimals == 0:
+        value = int(value)
+    else:
+        value = round(value, decimals)
+    
+    return f"{name}: {value}"
+    
     """결과를 포맷팅된 문자열로 반환합니다.
 
     Args:
@@ -70,4 +80,4 @@ def format_output(name: str, value: float, decimals: int = 2) -> str:
     """
     # TODO: 구현하세요
     # 힌트: f-string 또는 format() 사용
-    pass
+    
