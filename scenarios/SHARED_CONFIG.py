@@ -1,5 +1,5 @@
 """
-프로젝트 공유 설정 파일
+프로젝트 공유 설정 파일2
 
 ⚠️ 주의: 이 파일은 Git 충돌 실습용입니다!
 모든 팀원이 동시에 이 파일을 수정하여 충돌을 경험합니다.
@@ -31,6 +31,12 @@ SUPPORTED_OPERATIONS = [
     "add",
     "subtract",
     "multiply",
+    "validate_numbers",
+    "round_result",
+    "format_output",
+    "multiply",
+    "divide",
+    "수정하기"
     # 팀원들이 각자 추가할 예정
 ]
 
