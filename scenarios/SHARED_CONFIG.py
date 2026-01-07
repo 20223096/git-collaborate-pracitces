@@ -30,6 +30,11 @@ SUPPORTED_OPERATIONS = [
     # 기본 연산
     "add",
     "subtract",
+    "validate_numbers",
+    "round_result",
+    "format_output",
+    "multiply",
+    "divide"
     # 팀원들이 각자 추가할 예정
 ]
 
