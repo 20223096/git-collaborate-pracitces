@@ -19,7 +19,7 @@ AUTHOR = "Team"
 
 # 결과 출력 시 소수점 자리수
 # ⚠️ 충돌 발생 예정: 모든 팀원이 이 값을 수정합니다!
-DECIMAL_PLACES = 2
+DECIMAL_PLACES = 211
 
 # =============================================================================
 # 지원 연산 목록
@@ -30,6 +30,7 @@ SUPPORTED_OPERATIONS = [
     # 기본 연산
     "add",
     "subtract",
+    "multiply",
     "validate_numbers",
     "round_result",
     "format_output",
