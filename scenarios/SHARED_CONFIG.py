@@ -35,7 +35,8 @@ SUPPORTED_OPERATIONS = [
     "round_result",
     "format_output",
     "multiply",
-    "divide"
+    "divide",
+    "수정하기"
     # 팀원들이 각자 추가할 예정
 ]
 
